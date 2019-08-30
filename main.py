@@ -49,10 +49,10 @@ def dragRoi(path, num):
             ROIs[1][1]:ROIs[1][1]+ROIs[1][3],
             ROIs[1][0]:ROIs[1][0]+ROIs[1][2]
         ]
-        roi_3 = img[
-            ROIs[1][1]:ROIs[1][1]+ROIs[1][3],
-            ROIs[1][0]:ROIs[1][0]+ROIs[1][2]
-        ]
+#        roi_3 = img[
+#            ROIs[1][1]:ROIs[1][1]+ROIs[1][3],
+#            ROIs[1][0]:ROIs[1][0]+ROIs[1][2]
+#        ]
         cv2.imshow('Roi_1', roi_1)
         cv2.imshow('Roi_2', roi_2)
 #        cv2.imshow('roi_3', roi_3)
