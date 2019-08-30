@@ -1,4 +1,4 @@
-# Opencv-drag-ROI
+# openCV dragROI
 Function to crop single or multiple regions of interest from a source image.
 
 ## Overview
